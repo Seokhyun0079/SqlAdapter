@@ -29,6 +29,8 @@ if you have like this seriously terrible query.
                 "    ("+sql+")\n" +
                 "    JOIN freeboard_article_comment USING ( article_no )\n" +where2 ;
                 ;
+        Statement preparedStatement = connection.createStatement();
+        ResultSet rs= preparedStatement.executeQuery(sql2);
                 
 and your boss want to change this query, and he request you.
 
