@@ -32,7 +32,7 @@ if you have like this seriously terrible query.
         Statement preparedStatement = connection.createStatement();
         ResultSet rs= preparedStatement.executeQuery(sql2);
                 
-and your boss want to change this query, and he request you.
+and your boss want to change this query.
 
 maybe you will like this.
 
