@@ -30,9 +30,9 @@ if you have like this seriously terrible query.
                 "    JOIN freeboard_article_comment USING ( article_no )\n" +where2 ;
                 ;
                 
-and your boss want to change this query.
+and your boss want to change this query, and he request you.
 
-may you will like this.
+maybe you will like this.
 
 parameter[0] → ?
 pstmt.setString(1, parameter[1]);
