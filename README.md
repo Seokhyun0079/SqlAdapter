@@ -43,8 +43,9 @@ then i made this.
 
 you should like this.
 
-SqlAdapter sqlAdapter = new SqlAdapter();
 
+
+        SqlAdapter sqlAdapter = new SqlAdapter();
         String where =        "        WHERE\n" +
                 "            article_no = "+sqlAdapter.getPramaterCode(sqlAparameter[3])+"";
         String sql ="        SELECT\n" +
